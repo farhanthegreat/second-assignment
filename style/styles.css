@@ -1,0 +1,122 @@
+/* universal style  */
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header part's styles */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 210px 0px 210px ;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.header-menu button {
+    border: none;
+    background: none;
+    font-weight: 550;
+    font-size: 18px;
+    color: #424242;
+}
+
+/* banner part style  */
+.banner {
+    text-align: center;  
+}
+
+.banner-text {
+    margin: 0px 550px 50px 550px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.banner-description {
+    color: #727272;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+.banner-btn {
+    border: none;
+    background: #FF900E;
+    border-radius: 8px;
+    color: white;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-img {
+    padding-bottom: 50px;
+}
+.banner-img img {
+    width: 75%;
+}
+
+
+/* main part's styles------------------------------ */
+
+/* photo-album and text part styles */
+.photo-text-container {
+    display: flex;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.photo-album {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 220px;
+}
+.photo-album img {
+    margin: 24px 24px;
+}
+.album-text {
+    padding-top: 180px;
+    padding-left: 50px;
+    padding-right: 200px;
+    text-align: left;
+}
+
+.album-title, .title-style-2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.title-style-1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+.title-style-2 {
+    color: #FF900E;
+}
+
+.album-description {
+    color: #727272;
+}
+
+/* features part styles */
+
+.feature {
+
+}
+
+
+
+
+/* footer part's styles */
+
