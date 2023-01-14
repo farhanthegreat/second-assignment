@@ -109,14 +109,177 @@
     color: #727272;
 }
 
-/* features part styles */
+/* features part styles------------------------ */
 
 .feature {
+    display: flex;
+    margin-top: 130px;
+}
+
+/* feature text container styles */
+
+.features-text-container {
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.features-text {
 
 }
 
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
 
+.features-description {
+    color: #727272;
+}
+
+.features-data {
+
+}
+
+.data {
+
+}
+
+.data-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.data-text {
+    color: #727272;
+}
+
+/* features image styles  */
+
+.features-image {
+    margin-right: 200px;
+}
+
+.feature-img {
+    position: relative;
+}
+
+.feature-img-text-container {
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 0px 45px 30px 45px;
+    border: none;
+}
+
+.feature-img-text-container h1 {
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: -30px;
+}
+
+.feature-img-text-container p {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* facts style  */
+
+.facts {
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.facts-text {
+    color: #727272;
+}
+
+/* achievement part styles */
+
+.achievements {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 220px;
+}
+
+.achievement {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    width: 240px;
+    height: 240px;
+}
+.achievement-data {
+    padding: 40px 20px 0px 20px;
+    text-align: center;
+}
+
+.number {
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+
+.text {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* sposor part styles */
+
+.sponsor {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.sponsor-data {
+    margin-bottom: 50px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-text {
+    color: #727272;
+}
+
+.sponsor-img {
+    text-align: center;
+    margin-left: 80px;
+}
+.sponsor-img img {
+    margin-right: 100px;
+    filter: grayscale(100%);
+}
 
 
 /* footer part's styles */
 
+.footer {
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 200px 200px;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 40px 200px;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+}
