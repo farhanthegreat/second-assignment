@@ -148,6 +148,7 @@
 
 .features-description {
     color: #727272;
+    margin-top: -20px;
 }
 
 .features-data {
@@ -175,6 +176,7 @@
 
 .data-text {
     color: #727272;
+    
 }
 
 /* features image styles  */
@@ -319,7 +321,7 @@
 /* responsive part  */
 
 @media screen and (max-width: 576px) {
-    .menu, .photo-text-container, .photo-album, .feature {
+    .menu, .photo-text-container, .photo-album, .achievements, .sponsor {
         display: flex;
         flex-direction: column;
     }
@@ -337,37 +339,87 @@
     .photo-album {
         padding: 20px 20px;
     }
+    
 
-    .album-text, .features-text-container {
+    .album-text{
         text-align: center;
         padding: 5px 5px;
+    } 
+
+    /* features  */
+
+    .feature {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .features-text-container {
-        margin: 5px 5px;
-        
+        margin: 0px 0px;
+        max-width: 90%;
     }
 
     .features-image {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 5px 5px;
-        width: 80%;
-        padding: 5px 5px;
-    }
-    .feature-img {
-        margin: 0px 0px;
-        padding: 0px 0px;
-    }
-    .feature-img-text-container {
-        margin-top: 20px;
 
+    }
+
+    .features-text {
+
+    }
+
+    .features-data {
+        margin: 0px 0px;
+        padding: 5px 5px;
+        max-width: 90%;
+    }
+    .data, .data-text, .data-title {
+        margin: 20px 0px;
+        max-width: 90%;
+        padding: 0px 5px;
+    }
+
+    .feature-img, .feature-img-text-container  {
+        
+
+    }
+
+    .feature-img-text-container {
+        
     }
     
+    .facts {
+        margin-top: 100px;
+        margin-left: 0px;
+        max-width: 90%;
+        text-align: start;
+        padding: 5px 5px;
+        margin-bottom: 50px;
+    }
+
+    .achievements {
+        margin: 5px 5px 5px 50px;
+        text-align: center;
+    }
+    .achievement {
+        margin-bottom: 50px;
+    }
+    .sponsor {
+        text-align: start;
+        max-width: 100%;
+    }
+
+    .sponsor-img img {
+        margin-bottom: 20px;
+    }
+
+    .footer, .footer-text {
+        margin: 5px 0px;
+        
+    }
+
+    .footer-text {
+        padding: 5px 0px;
+    }
+
 }
 
-.header, .banner, .photo-text-container, .facts, .achievement, .sponsor,  footer {
-    display: none;
-
-}
+ 
