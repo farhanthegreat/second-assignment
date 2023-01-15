@@ -244,6 +244,10 @@
     width: 240px;
     height: 240px;
 }
+
+.achievement:hover {
+    transform: scale(1.2);
+}
 .achievement-data {
     padding: 40px 20px 0px 20px;
     text-align: center;
