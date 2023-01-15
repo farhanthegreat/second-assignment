@@ -325,6 +325,18 @@
         display: flex;
         flex-direction: column;
     }
+    .menu {
+        margin: 20px 0px;
+        padding: 0px 5px;
+    }
+    .header-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-menu button {
+        margin-bottom: 20px;
+    }
+
     .banner {
         display: flex;
         flex-direction: column-reverse;
@@ -334,6 +346,9 @@
     .banner-text {
         margin: 0px 0px;
         margin-top: -50px;
+        max-width: 90%;
+        text-align: start;
+        padding-left: 5px;
     }
 
     .photo-album {
@@ -342,7 +357,9 @@
     
 
     .album-text{
-        text-align: center;
+        text-align: start;
+        margin: 0px 0px;
+        max-width: 90%;
         padding: 5px 5px;
     } 
 
@@ -359,10 +376,11 @@
     }
 
     .features-image {
-
-    }
-
-    .features-text {
+        margin: 0px 0px;
+        max-width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
 
     }
 
@@ -377,22 +395,28 @@
         padding: 0px 5px;
     }
 
-    .feature-img, .feature-img-text-container  {
+    .feature-img img {
+        margin: 0px 0px;
+        padding: 0px 0px;
+        max-width: 100%;
+        max-height: 100%;
         
 
     }
 
     .feature-img-text-container {
-        
+        max-width: 50%;
+        margin: 0px 0px;
+        padding: 5px 0px;
     }
     
+
     .facts {
-        margin-top: 100px;
         margin-left: 0px;
         max-width: 90%;
         text-align: start;
         padding: 5px 5px;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .achievements {
@@ -404,7 +428,7 @@
     }
     .sponsor {
         text-align: start;
-        max-width: 100%;
+        max-width: 90%;
     }
 
     .sponsor-img img {
@@ -412,7 +436,9 @@
     }
 
     .footer, .footer-text {
-        margin: 5px 0px;
+        margin: 5px 5px;
+        max-width: 90%;
+        text-align: center;
         
     }
 
