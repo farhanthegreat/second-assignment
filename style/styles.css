@@ -315,3 +315,59 @@
     font-weight: 400;
     font-size: 20px;
 }
+
+/* responsive part  */
+
+@media screen and (max-width: 576px) {
+    .menu, .photo-text-container, .photo-album, .feature {
+        display: flex;
+        flex-direction: column;
+    }
+    .banner {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    .banner-text {
+        margin: 0px 0px;
+        margin-top: -50px;
+    }
+
+    .photo-album {
+        padding: 20px 20px;
+    }
+
+    .album-text, .features-text-container {
+        text-align: center;
+        padding: 5px 5px;
+    }
+
+    .features-text-container {
+        margin: 5px 5px;
+        
+    }
+
+    .features-image {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 5px 5px;
+        width: 80%;
+        padding: 5px 5px;
+    }
+    .feature-img {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    .feature-img-text-container {
+        margin-top: 20px;
+
+    }
+    
+}
+
+.header, .banner, .photo-text-container, .facts, .achievement, .sponsor,  footer {
+    display: none;
+
+}
